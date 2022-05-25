@@ -1,7 +1,7 @@
 # Preparando o ambiente
 
-0. Veja este vídeo: [link](https://www.youtube.com/watch?v=QeVl8fXteI0)
-1. Instale o VSCode.
+0. Veja este [vídeo](https://www.youtube.com/watch?v=QeVl8fXteI0).
+1. Instale o [VSCode](https://code.visualstudio.com/download).
 2. No VSCode, instale as seguintes extensões:
 - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 - [Kotlin Language](https://marketplace.visualstudio.com/items?itemName=mathiasfrohlich.Kotlin)
