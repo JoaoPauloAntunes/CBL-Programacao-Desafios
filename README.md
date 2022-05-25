@@ -10,6 +10,8 @@
 5. Clone este repositório para a sua máquina e abra ele com o VSCode.
 6. No VSCode, abra o arquivo `scripts/hello.kt` e clique no botão de **rodar código** no canto superior direito da tela. Um arquivo `hello.jar` é gerado e executado, a sua saída é exibida na aba `OUTPUT` do terminal integrado do VSCode.
 
-# Como rodar um arquivo ".jar"
+# Dicas
 
+- [Como configurar o Code Runner para rodar na aba `TERMINAL` do terminal integrado](https://py-vscode.readthedocs.io/en/latest/files/code-runner.html)
+- Como rodar um arquivo ".jar":
 `java -jar scripts/hello.jar`
