@@ -9,7 +9,7 @@
 - [Kotlin Language](https://marketplace.visualstudio.com/items?itemName=mathiasfrohlich.Kotlin)
 3. Baixe o compilador do Kotlin na seção "Assets": [kotlin-compiler-x.x.x-XX.zip](https://github.com/JetBrains/kotlin/releases)
 4. Extraia o arquivo .zip baixado e mova a pasta `kotlinc` para o diretório `C:\Program Files`. 
-5. Clone este repositório para a sua máquina e abra ele com o VSCode.
+5. Clone este repositório para a sua máquina e abra ele com o VSCode ([como clonar um repositório?](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository)).
 6. No VSCode, abra o arquivo `scripts/hello.kt` e clique no botão de **rodar código** no canto superior direito da tela. Um arquivo `hello.jar` é gerado e executado, a sua saída é exibida na aba `OUTPUT` do terminal integrado do VSCode.
 
 # Dicas
