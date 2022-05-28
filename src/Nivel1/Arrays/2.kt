@@ -41,13 +41,13 @@ fun main() {
     15  // 8
   )
   for (num in nums.filter{verificaPrimo(it) == true}) {
-    println("${num} \t => ${nums.indexOf(num)}")
+    println("${num} \t=> ${nums.indexOf(num)}")
   }
 }
 /*
-31       => 0
-5        => 2
-3        => 4
-2        => 5
-7        => 6
+31      => 0
+5       => 2
+3       => 4
+2       => 5
+7       => 6
 */
