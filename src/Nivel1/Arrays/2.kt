@@ -29,15 +29,25 @@ fun verificaPrimo(num: Int): Boolean {
 fun main() {
   // print((1..547).toList().filter{verificaPrimo(it) == true})
 
-  val nums = listOf<Int>(31, 8, 5, 6, 3, 2, 7, 21, 15)
-  for ((i, num) in nums.filter{verificaPrimo(it) == true}.withIndex()) {
-    println("${i}: ${num}")
+  val nums = listOf<Int>(
+    31, // 0 
+    8,  // 1
+    5,  // 2
+    6,  // 3
+    3,  // 4
+    2,  // 5
+    7,  // 6
+    21, // 7
+    15  // 8
+  )
+  for (num in nums.filter{verificaPrimo(it) == true}) {
+    println("${num} \t => ${nums.indexOf(num)}")
   }
 }
 /*
-0: 31
-1: 5
-2: 3
-3: 2
-4: 7
+31       => 0
+5        => 2
+3        => 4
+2        => 5
+7        => 6
 */
