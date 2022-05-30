@@ -1,4 +1,4 @@
-# Preparando o ambiente
+# Preparando o ambiente no Windows
 
 > :warning: **você precisa ter permissão de adminstrador para fazer isso!**
 
