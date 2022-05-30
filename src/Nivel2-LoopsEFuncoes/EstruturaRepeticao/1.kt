@@ -6,15 +6,15 @@
     
     Faça um programa que determine o salário atual deste funcionário.
 */
-import kotlin.math.pow
-
-
 fun main() {
   val anoBase = 2005
   val anoAtual = 2022
 
   val salarioBase = 1000
-  val porcentualAumento = 0.015 // a partir de 2006
 
-  println("Salário atual: ${salarioBase + (salarioBase * porcentualAumento * (2.0f).pow(anoAtual - anoBase - 1.0f))}")
+  var porcentualAumento = 0.015 // a partir de 2006
+  for (i in 2..(anoAtual - anoBase)) {
+    porcentualAumento *= 2
+  }  
+  println("Salário atual (R$): ${String.format("%.2f", salarioBase + (salarioBase * porcentualAumento))}")
 }
