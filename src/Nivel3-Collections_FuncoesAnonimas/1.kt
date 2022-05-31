@@ -14,18 +14,19 @@ Fazer 2 funções:
 - Uma função que irá receber como entrada a média das notas calculada pela função lambda e retornar o conceito conforme a tabela acima.
 */
 fun main() {
-  val n1: Float = 6.0f
-  val n2: Float = 7.66f
+  val nota1: Float = 6.0f
+  val nota2: Float = 7.66f
 
-  val pesoN1: Int = 4
-  val pesoN2: Int = 6
+  val pesoNota1: Int = 4
+  val pesoNota2: Int = 6
 
-  val media = (n1*pesoN1 + n2*pesoN2) / (pesoN1 + pesoN2)
-  println("- Média ponderada: ${String.format("%.2f", media)}")
+  val calcMedia: (Float, Float, Int, Int) -> Float = {n1, n2, pesoN1, pesoN2 -> (n1*pesoN1 + n2*pesoN2) / (pesoN1 + pesoN2)}
+  val mediaPonderada: Float = calcMedia(nota1, nota2, pesoNota1, pesoNota2)
+  println("- Média ponderada: ${String.format("%.2f", mediaPonderada)}")
 
-  val conceito = if (media >= 9) "A"
-    else if (media >= 7) "B"
-    else if (media >= 5) "C"
-    else "D"
-  println("- Conceito: ${conceito}")
+  val getConceito: (Float) -> Char = {media -> if (media >= 9) 'A' 
+    else if (media >= 7) 'B' 
+    else if (media >= 5) 'C' 
+    else 'D'}
+  println("- Conceito: ${getConceito(mediaPonderada)}")
 }
