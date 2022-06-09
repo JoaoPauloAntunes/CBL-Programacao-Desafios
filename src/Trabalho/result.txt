@@ -1,0 +1,27 @@
+Path("C:/Users/joao/Documents/CBL-Programacao-Desafios/main.kt"): 
+- Path C:\Users\joao\Documents\CBL-Programacao-Desafios\main.kt
+- Windows: C:\\Users\\joao\\Documents\\CBL-Programacao-Desafios\\main.kt
+- POSIX: C:/Users/joao/Documents/CBL-Programacao-Desafios/main.kt
+- WSL: /mnt/c/Users/joao/Documents/CBL-Programacao-Desafios/main.kt
+ok!
+
+Path("C:\\Users\\joao\\Documents\\CBL-Programacao-Desafios\\main.kt"):
+- Path C:\Users\joao\Documents\CBL-Programacao-Desafios\main.kt
+- Windows: C:\\Users\\joao\\Documents\\CBL-Programacao-Desafios\\main.kt
+- POSIX: C:/Users/joao/Documents/CBL-Programacao-Desafios/main.kt
+- WSL: /mnt/c/Users/joao/Documents/CBL-Programacao-Desafios/main.kt
+ok!
+
+Path("/mnt/c/Users/joao/Documents/CBL-Programacao-Desafios/main.kt"):
+- Path C:\Users\joao\Documents\CBL-Programacao-Desafios\main.kt
+- Windows: C:\\Users\\joao\\Documents\\CBL-Programacao-Desafios\\main.kt
+- POSIX: C:/Users/joao/Documents/CBL-Programacao-Desafios/main.kt
+- WSL: /mnt/c/Users/joao/Documents/CBL-Programacao-Desafios/main.kt
+ok!
+
+C:\Users\joao\Documents\CBL-Programacao-Desafios\main.kt => Path:
+- Path C:\Users\joao\Documents\CBL-Programacao-Desafios\main.kt
+- Windows: C:\\Users\\joao\\Documents\\CBL-Programacao-Desafios\\main.kt
+- POSIX: C:/Users/joao/Documents/CBL-Programacao-Desafios/main.kt
+- WSL: /mnt/c/Users/joao/Documents/CBL-Programacao-Desafios/main.kt
+ok!
